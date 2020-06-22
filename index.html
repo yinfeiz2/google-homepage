@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Google</title>
+        </head>
+        <body>
+            <style>
+                body {
+                    margin: 0;
+                }
+
+                img {
+                    display: block;
+                    width: 250px;
+                    padding-top: 150px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                input {
+                    display: block;
+                    width: 550px;
+                    margin: 30px auto 10px auto;
+                    padding: 20px 20px 20px 20px;
+                    border: 1px lightgrey solid;
+                    border-radius: 30px;
+                    font-size : 15px;
+                }
+
+                button {
+                    display: block;
+                    width: 150px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: 1px white solid;
+                    color: rgb(105, 105, 105);
+                    background-color: rgb(245, 245, 245);
+                    font-size : 15px;
+                    border-radius: 5px;
+                }
+
+                .container {
+                    display: grid;
+                    width: 320px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 20px 250px 20px 250px;
+                    grid-template-rows: 50px;
+                    grid-template-columns: 150px 150px;
+                    grid-column-gap: 20px;
+                }
+
+                ul {
+                    list-style-type: none;
+                    margin: 15px 20px 15px 20px;
+                    padding: 0;
+                }
+
+                li {
+                    display: inline;
+                    font-size: 15px;
+                    padding: 0 10px;
+                }
+
+                li a {
+                    color: rgb(65, 65, 65);
+                    text-decoration: none;
+                }
+
+                header {
+                    position: fixed;
+                    top: 0;
+                    width: 100%;
+                    margin-top: 5px;
+                }
+
+                .l1 {
+                    float: left;
+                }
+
+                .l2 {
+                    float: right;
+                }
+
+                footer {
+                    position: fixed;
+                    bottom: 0;
+                    width: 100%;
+                    border: 1px lightgrey solid;
+                    background-color: rgb(240, 240, 240);
+                }
+
+                .l3 {
+                    float: left;
+                }
+
+                .l4 {
+                    float: right;
+                }
+            </style>
+            <header>
+                <ul class="l1">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Store</a></li>
+                </ul>
+                <ul class="l2">
+                    <li><a href="">Gmail</a></li>
+                    <li><a href="">Images</a></li>
+                </ul>
+            </header>
+            <main>
+                <img alt="Google Logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+                <form action="">
+                    <input type="text">
+                    <div class="container">
+                        <button class="b1" type="submit">Google Search</button>
+                        <button class="b2" type="submit">I'm Feeling Lucky</button>
+                    </div>
+                </form>
+            </main>
+            <footer>
+                <ul class="l3">
+                    <li><a href="">Advertising</a></li>
+                    <li><a href="">Business</a></li>
+                    <li><a href="">How Search works</a></li>
+                </ul>
+                <ul class="l4">
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">Settings</a></li>
+                </ul>
+            </footer>
+        </body>
+    </html>
